@@ -1416,3 +1416,888 @@ Job ID: 200ed1b4-014f-4b49-ac51-dd9ec771d48e
                     
 2025-03-26 02:31:38,354 - INFO - Successfully loaded 10 rows from query
 2025-03-26 02:31:39,560 - INFO - Dashboard execution completed successfully.
+2025-03-26 09:46:42,009 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 09:46:43,146 - ERROR - Credentials file not found at E:\HealthCare Project\buoyant-cargo-454110-t7-fca2b1116372.json.
+2025-03-26 09:46:43,152 - ERROR - BigQuery client initialization failed: File E:\HealthCare Project\buoyant-cargo-454110-t7-fca2b1116372.json was not found.
+2025-03-26 09:46:43,159 - INFO - User selected dataset: Provider Productivity
+2025-03-26 09:46:43,160 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 09:46:43,161 - ERROR - Query execution failed: name 'client' is not defined
+2025-03-26 09:46:43,166 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity` WHERE 1=1
+2025-03-26 09:46:43,167 - ERROR - Query execution failed: name 'client' is not defined
+2025-03-26 09:46:43,169 - INFO - Dashboard execution completed successfully.
+2025-03-26 09:54:28,188 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 09:54:28,223 - INFO - BigQuery client initialized successfully.
+2025-03-26 09:54:28,893 - INFO - User selected dataset: Provider Productivity
+2025-03-26 09:54:28,894 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 09:54:32,201 - INFO - Successfully loaded 1 rows from query
+2025-03-26 09:54:32,202 - INFO - Executing query: SELECT DISTINCT `PROVIDER` FROM `healthcare_analytics.provider_productivity`
+2025-03-26 09:54:36,126 - INFO - Successfully loaded 251 rows from query
+2025-03-26 09:54:36,138 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity` WHERE 1=1
+2025-03-26 09:54:37,634 - INFO - Successfully loaded 251 rows from query
+2025-03-26 09:54:37,670 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 09:54:39,586 - INFO - Successfully loaded 1 rows from query
+2025-03-26 09:54:39,587 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 09:54:41,649 - INFO - Successfully loaded 2 rows from query
+2025-03-26 09:54:41,663 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity` 
+                     
+                    ORDER BY `encounter_count` DESC 
+                    LIMIT 10
+                    
+2025-03-26 09:54:43,379 - INFO - Successfully loaded 10 rows from query
+2025-03-26 09:54:44,630 - INFO - Dashboard execution completed successfully.
+2025-03-26 10:27:35,258 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 10:27:35,287 - INFO - BigQuery client initialized successfully.
+2025-03-26 10:27:35,985 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 10:27:38,613 - INFO - Successfully loaded 2 rows from query
+2025-03-26 10:27:38,614 - INFO - Executing query: SELECT DISTINCT `PROVIDER` FROM `healthcare_analytics.provider_productivity`
+2025-03-26 10:27:40,347 - INFO - Successfully loaded 251 rows from query
+2025-03-26 10:27:40,349 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity` WHERE 1=1
+2025-03-26 10:27:41,987 - INFO - Successfully loaded 251 rows from query
+2025-03-26 10:27:42,803 - INFO - Dashboard execution completed successfully.
+2025-03-26 10:29:15,682 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 10:29:15,746 - INFO - BigQuery client initialized successfully.
+2025-03-26 10:29:16,488 - INFO - User selected dataset: Provider Productivity
+2025-03-26 10:29:16,490 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 10:29:19,045 - INFO - Successfully loaded 1 rows from query
+2025-03-26 10:29:19,046 - INFO - Executing query: SELECT DISTINCT `PROVIDER` FROM `healthcare_analytics.provider_productivity`
+2025-03-26 10:29:20,695 - INFO - Successfully loaded 251 rows from query
+2025-03-26 10:29:20,700 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity` WHERE 1=1
+2025-03-26 10:29:22,057 - INFO - Successfully loaded 251 rows from query
+2025-03-26 10:29:22,064 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 10:29:24,009 - INFO - Successfully loaded 1 rows from query
+2025-03-26 10:29:24,009 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 10:29:25,699 - INFO - Successfully loaded 2 rows from query
+2025-03-26 10:29:25,704 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity` 
+                     
+                    ORDER BY `encounter_count` DESC 
+                    LIMIT 10
+                    
+2025-03-26 10:29:27,893 - INFO - Successfully loaded 10 rows from query
+2025-03-26 10:29:28,833 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:13:04,890 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:13:04,923 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:13:05,732 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:13:05,733 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:13:08,164 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:13:08,165 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:13:09,652 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:13:09,656 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity` WHERE 1=1
+2025-03-26 12:13:11,258 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:13:11,265 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:13:13,247 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:13:13,248 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:13:14,940 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:13:14,945 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity` 
+                     
+                    ORDER BY `encounter_count` DESC 
+                    LIMIT 10
+                    
+2025-03-26 12:13:16,554 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:13:17,584 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:17:48,488 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:17:48,516 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:17:49,223 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:17:49,224 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:17:51,917 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:17:51,918 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:17:53,843 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:17:53,846 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:17:55,657 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:17:55,664 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:17:57,385 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:17:57,385 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:17:59,352 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:17:59,357 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 12:18:01,037 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:18:01,997 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:30:41,222 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:30:41,252 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:30:42,037 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:30:42,039 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:30:44,717 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:30:44,717 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:30:46,464 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:30:46,468 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:30:48,076 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:30:48,084 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:30:49,978 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:30:49,978 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:30:51,898 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:30:51,902 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 12:30:53,658 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:30:54,592 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:32:32,457 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:32:32,529 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:32:33,903 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:32:33,904 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:32:36,901 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:32:36,901 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:32:38,423 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:32:38,427 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:32:39,901 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:32:39,908 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:32:41,532 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:32:41,532 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:32:43,452 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:32:43,456 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 12:32:45,024 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:32:46,356 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:38:35,510 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:38:35,540 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:38:36,296 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:38:36,297 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:38:39,748 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:38:39,748 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:38:42,077 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:38:42,080 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:38:42,081 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:38:43,901 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:38:43,908 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:38:45,612 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:38:45,612 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:38:47,412 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:38:47,416 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 12:38:49,011 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:38:49,981 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:45:11,890 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:45:11,918 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:45:12,570 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:45:12,571 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:45:18,295 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:45:18,296 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:45:19,844 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:45:19,856 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:45:21,333 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:45:21,350 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:45:24,146 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:45:24,147 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:45:26,608 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:45:26,623 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 12:45:30,664 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:45:31,670 - INFO - Dashboard execution completed successfully.
+2025-03-26 12:56:05,716 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 12:56:05,745 - INFO - BigQuery client initialized successfully.
+2025-03-26 12:56:06,473 - INFO - User selected dataset: Provider Productivity
+2025-03-26 12:56:06,474 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 12:56:09,511 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:56:09,512 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:56:11,377 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:56:11,381 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:56:11,381 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 12:56:12,890 - INFO - Successfully loaded 251 rows from query
+2025-03-26 12:56:12,898 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 12:56:14,854 - INFO - Successfully loaded 1 rows from query
+2025-03-26 12:56:14,854 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 12:56:16,761 - INFO - Successfully loaded 2 rows from query
+2025-03-26 12:56:16,776 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 12:56:18,769 - INFO - Successfully loaded 10 rows from query
+2025-03-26 12:56:19,900 - INFO - Dashboard execution completed successfully.
+2025-03-26 13:22:39,102 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 13:22:39,130 - INFO - BigQuery client initialized successfully.
+2025-03-26 13:22:39,845 - INFO - User selected dataset: Provider Productivity
+2025-03-26 13:22:39,847 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 13:22:43,207 - INFO - Successfully loaded 1 rows from query
+2025-03-26 13:22:43,207 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 13:22:44,808 - INFO - Successfully loaded 251 rows from query
+2025-03-26 13:22:44,813 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 13:22:44,813 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 13:22:46,419 - INFO - Successfully loaded 251 rows from query
+2025-03-26 13:22:46,438 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 13:22:48,373 - INFO - Successfully loaded 1 rows from query
+2025-03-26 13:22:48,374 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 13:22:50,094 - INFO - Successfully loaded 2 rows from query
+2025-03-26 13:22:50,111 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 13:22:52,255 - INFO - Successfully loaded 10 rows from query
+2025-03-26 13:22:53,254 - INFO - Dashboard execution completed successfully.
+2025-03-26 15:15:31,093 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 15:15:31,135 - INFO - BigQuery client initialized successfully.
+2025-03-26 15:15:32,311 - INFO - User selected dataset: Provider Productivity
+2025-03-26 15:15:32,312 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 15:15:35,103 - INFO - Successfully loaded 1 rows from query
+2025-03-26 15:15:35,104 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:15:36,742 - INFO - Successfully loaded 251 rows from query
+2025-03-26 15:15:36,760 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:15:36,761 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:15:38,240 - INFO - Successfully loaded 251 rows from query
+2025-03-26 15:15:38,286 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 15:15:39,905 - INFO - Successfully loaded 1 rows from query
+2025-03-26 15:15:39,906 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 15:15:41,968 - INFO - Successfully loaded 2 rows from query
+2025-03-26 15:15:41,981 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 15:15:43,533 - INFO - Successfully loaded 10 rows from query
+2025-03-26 15:15:45,182 - INFO - Dashboard execution completed successfully.
+2025-03-26 15:25:28,380 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 15:25:28,419 - INFO - BigQuery client initialized successfully.
+2025-03-26 15:25:29,429 - INFO - User selected dataset: Provider Productivity
+2025-03-26 15:25:29,430 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 15:25:34,339 - INFO - Successfully loaded 1 rows from query
+2025-03-26 15:25:34,340 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:25:35,781 - INFO - Successfully loaded 251 rows from query
+2025-03-26 15:25:35,790 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:25:35,791 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:25:37,247 - INFO - Successfully loaded 251 rows from query
+2025-03-26 15:25:37,278 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 15:25:38,918 - INFO - Successfully loaded 1 rows from query
+2025-03-26 15:25:38,919 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 15:25:40,576 - INFO - Successfully loaded 2 rows from query
+2025-03-26 15:25:40,590 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 15:25:42,119 - INFO - Successfully loaded 10 rows from query
+2025-03-26 15:25:43,518 - INFO - Dashboard execution completed successfully.
+2025-03-26 15:44:25,523 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 15:44:25,564 - INFO - BigQuery client initialized successfully.
+2025-03-26 15:44:26,690 - INFO - User selected dataset: Provider Productivity
+2025-03-26 15:44:26,697 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 15:44:30,848 - INFO - Successfully loaded 1 rows from query
+2025-03-26 15:44:30,849 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:44:32,402 - INFO - Successfully loaded 251 rows from query
+2025-03-26 15:44:32,414 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:44:32,415 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 15:44:34,056 - INFO - Successfully loaded 251 rows from query
+2025-03-26 15:44:34,086 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 15:44:35,946 - INFO - Successfully loaded 1 rows from query
+2025-03-26 15:44:35,948 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 15:44:37,954 - INFO - Successfully loaded 2 rows from query
+2025-03-26 15:44:37,969 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 15:44:40,257 - INFO - Successfully loaded 10 rows from query
+2025-03-26 15:44:41,648 - INFO - Dashboard execution completed successfully.
+2025-03-26 17:02:29,777 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 17:02:29,805 - INFO - BigQuery client initialized successfully.
+2025-03-26 17:02:30,488 - INFO - User selected dataset: Provider Productivity
+2025-03-26 17:02:30,490 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 17:02:33,530 - INFO - Successfully loaded 1 rows from query
+2025-03-26 17:02:33,530 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:02:37,987 - INFO - Successfully loaded 251 rows from query
+2025-03-26 17:02:37,993 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:02:37,993 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:02:40,981 - INFO - Successfully loaded 251 rows from query
+2025-03-26 17:02:41,011 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 17:02:43,111 - INFO - Successfully loaded 1 rows from query
+2025-03-26 17:02:43,112 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 17:02:44,864 - INFO - Successfully loaded 2 rows from query
+2025-03-26 17:02:44,879 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 17:02:46,355 - INFO - Successfully loaded 10 rows from query
+2025-03-26 17:02:47,581 - INFO - Dashboard execution completed successfully.
+2025-03-26 17:18:32,066 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 17:18:32,093 - INFO - BigQuery client initialized successfully.
+2025-03-26 17:18:32,871 - INFO - User selected dataset: Provider Productivity
+2025-03-26 17:18:32,873 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 17:18:36,207 - INFO - Successfully loaded 1 rows from query
+2025-03-26 17:18:36,208 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:18:38,964 - INFO - Successfully loaded 251 rows from query
+2025-03-26 17:18:38,975 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:18:38,975 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:18:40,646 - INFO - Successfully loaded 251 rows from query
+2025-03-26 17:18:40,657 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 17:18:43,586 - INFO - Successfully loaded 1 rows from query
+2025-03-26 17:18:43,587 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 17:18:45,973 - INFO - Successfully loaded 2 rows from query
+2025-03-26 17:18:45,989 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 17:18:47,855 - INFO - Successfully loaded 10 rows from query
+2025-03-26 17:18:48,847 - INFO - Dashboard execution completed successfully.
+2025-03-26 17:34:51,821 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 17:34:51,861 - INFO - BigQuery client initialized successfully.
+2025-03-26 17:34:52,761 - INFO - User selected dataset: Provider Productivity
+2025-03-26 17:38:50,296 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 17:38:50,326 - INFO - BigQuery client initialized successfully.
+2025-03-26 17:38:51,091 - INFO - User selected dataset: Provider Productivity
+2025-03-26 17:38:51,093 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 17:38:53,925 - INFO - Successfully loaded 1 rows from query
+2025-03-26 17:38:53,926 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:38:55,492 - INFO - Successfully loaded 251 rows from query
+2025-03-26 17:38:55,504 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:38:55,505 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 17:38:57,918 - INFO - Successfully loaded 251 rows from query
+2025-03-26 17:38:57,947 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 17:38:59,650 - INFO - Successfully loaded 1 rows from query
+2025-03-26 17:38:59,651 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 17:39:02,008 - INFO - Successfully loaded 2 rows from query
+2025-03-26 17:39:02,020 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 17:39:03,810 - INFO - Successfully loaded 10 rows from query
+2025-03-26 17:39:04,838 - INFO - Dashboard execution completed successfully.
+2025-03-26 21:58:12,359 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 21:58:12,430 - INFO - BigQuery client initialized successfully.
+2025-03-26 21:58:13,331 - INFO - User selected dataset: Provider Productivity
+2025-03-26 21:58:13,335 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 21:58:17,636 - INFO - Successfully loaded 1 rows from query
+2025-03-26 21:58:17,637 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 21:58:19,163 - INFO - Successfully loaded 251 rows from query
+2025-03-26 21:58:19,191 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 21:58:19,191 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 21:58:20,803 - INFO - Successfully loaded 251 rows from query
+2025-03-26 21:58:20,861 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 21:58:22,609 - INFO - Successfully loaded 1 rows from query
+2025-03-26 21:58:22,610 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 21:58:24,379 - INFO - Successfully loaded 2 rows from query
+2025-03-26 21:58:24,393 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 21:58:25,930 - INFO - Successfully loaded 10 rows from query
+2025-03-26 21:58:27,013 - INFO - Dashboard execution completed successfully.
+2025-03-26 22:08:20,336 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 22:08:20,367 - INFO - BigQuery client initialized successfully.
+2025-03-26 22:08:21,153 - INFO - User selected dataset: Provider Productivity
+2025-03-26 22:08:21,157 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 22:08:24,205 - INFO - Successfully loaded 1 rows from query
+2025-03-26 22:08:24,206 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:08:25,781 - INFO - Successfully loaded 251 rows from query
+2025-03-26 22:08:25,796 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:08:25,796 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:08:27,483 - INFO - Successfully loaded 251 rows from query
+2025-03-26 22:08:27,492 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 22:08:29,270 - INFO - Successfully loaded 1 rows from query
+2025-03-26 22:08:29,271 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 22:08:31,012 - INFO - Successfully loaded 2 rows from query
+2025-03-26 22:08:31,027 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 22:08:32,514 - INFO - Successfully loaded 10 rows from query
+2025-03-26 22:08:33,665 - INFO - Dashboard execution completed successfully.
+2025-03-26 22:27:31,425 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 22:27:31,460 - INFO - BigQuery client initialized successfully.
+2025-03-26 22:27:32,291 - INFO - User selected dataset: Provider Productivity
+2025-03-26 22:27:32,292 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 22:27:35,567 - INFO - Successfully loaded 1 rows from query
+2025-03-26 22:27:35,567 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:27:37,164 - INFO - Successfully loaded 251 rows from query
+2025-03-26 22:27:37,172 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:27:37,172 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:27:38,943 - INFO - Successfully loaded 251 rows from query
+2025-03-26 22:27:38,965 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 22:27:40,522 - INFO - Successfully loaded 1 rows from query
+2025-03-26 22:27:40,523 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 22:29:39,354 - INFO - Successfully loaded 2 rows from query
+2025-03-26 22:29:39,359 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 22:29:40,922 - INFO - Successfully loaded 10 rows from query
+2025-03-26 22:29:42,318 - INFO - Dashboard execution completed successfully.
+2025-03-26 22:48:35,193 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 22:48:35,238 - INFO - BigQuery client initialized successfully.
+2025-03-26 22:48:35,998 - INFO - User selected dataset: Provider Productivity
+2025-03-26 22:48:36,002 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 22:48:39,908 - INFO - Successfully loaded 1 rows from query
+2025-03-26 22:48:39,909 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:48:41,495 - INFO - Successfully loaded 251 rows from query
+2025-03-26 22:48:41,499 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:48:41,499 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 22:48:42,931 - INFO - Successfully loaded 251 rows from query
+2025-03-26 22:48:42,940 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 22:48:44,931 - INFO - Successfully loaded 1 rows from query
+2025-03-26 22:48:44,932 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 22:48:46,541 - INFO - Successfully loaded 2 rows from query
+2025-03-26 22:48:46,545 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 22:48:47,876 - INFO - Successfully loaded 10 rows from query
+2025-03-26 22:48:48,937 - INFO - Dashboard execution completed successfully.
+2025-03-26 23:21:46,199 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 23:21:46,233 - INFO - BigQuery client initialized successfully.
+2025-03-26 23:21:47,146 - INFO - User selected dataset: Provider Productivity
+2025-03-26 23:21:47,150 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity' AND column_name = 'PROVIDER'
+    
+2025-03-26 23:23:34,821 - INFO - Successfully loaded 1 rows from query
+2025-03-26 23:23:34,821 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:23:36,365 - INFO - Successfully loaded 251 rows from query
+2025-03-26 23:23:36,368 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:23:36,368 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:23:37,753 - INFO - Successfully loaded 251 rows from query
+2025-03-26 23:23:37,758 - INFO - Executing query: 
+            SELECT column_name 
+            FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+            WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+            
+2025-03-26 23:23:39,557 - INFO - Successfully loaded 1 rows from query
+2025-03-26 23:23:39,557 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 23:23:41,121 - INFO - Successfully loaded 2 rows from query
+2025-03-26 23:23:41,124 - INFO - Executing query: 
+                    SELECT `PROVIDER`, `encounter_count` 
+                    FROM `healthcare_analytics.provider_productivity`
+                     ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 23:23:42,748 - INFO - Successfully loaded 10 rows from query
+2025-03-26 23:23:43,671 - INFO - Dashboard execution completed successfully.
+2025-03-26 23:35:11,715 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 23:35:11,815 - INFO - BigQuery client initialized successfully.
+2025-03-26 23:35:12,846 - INFO - User selected dataset: Provider Productivity
+2025-03-26 23:35:15,959 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:35:18,055 - INFO - Successfully loaded 251 rows from query
+2025-03-26 23:35:18,063 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:35:18,067 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:35:19,881 - INFO - Successfully loaded 251 rows from query
+2025-03-26 23:35:19,898 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-03-26 23:35:21,833 - INFO - Successfully loaded 1 rows from query
+2025-03-26 23:35:21,838 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 23:35:23,985 - INFO - Successfully loaded 2 rows from query
+2025-03-26 23:35:23,992 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 23:35:26,164 - INFO - Successfully loaded 10 rows from query
+2025-03-26 23:35:27,497 - INFO - Dashboard execution completed successfully.
+2025-03-26 23:48:26,346 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-26 23:48:26,392 - INFO - BigQuery client initialized successfully.
+2025-03-26 23:48:27,262 - INFO - User selected dataset: Provider Productivity
+2025-03-26 23:48:31,336 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:48:33,182 - INFO - Successfully loaded 251 rows from query
+2025-03-26 23:48:33,216 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:48:33,219 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-26 23:48:35,145 - INFO - Successfully loaded 251 rows from query
+2025-03-26 23:48:35,193 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-03-26 23:48:37,215 - INFO - Successfully loaded 1 rows from query
+2025-03-26 23:48:37,220 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-26 23:48:39,500 - INFO - Successfully loaded 2 rows from query
+2025-03-26 23:48:39,510 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-26 23:48:41,783 - INFO - Successfully loaded 10 rows from query
+2025-03-26 23:48:42,991 - INFO - Dashboard execution completed successfully.
+2025-03-27 00:04:05,196 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-27 00:04:05,227 - INFO - BigQuery client initialized successfully.
+2025-03-27 00:04:06,082 - INFO - User selected dataset: Provider Productivity
+2025-03-27 00:04:11,084 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:04:12,812 - INFO - Successfully loaded 251 rows from query
+2025-03-27 00:04:12,819 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:04:12,821 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:04:14,685 - INFO - Successfully loaded 251 rows from query
+2025-03-27 00:04:14,697 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-03-27 00:04:16,276 - INFO - Successfully loaded 1 rows from query
+2025-03-27 00:04:16,280 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-27 00:04:17,969 - INFO - Successfully loaded 2 rows from query
+2025-03-27 00:04:17,976 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-27 00:04:19,449 - INFO - Successfully loaded 10 rows from query
+2025-03-27 00:04:20,423 - INFO - Dashboard execution completed successfully.
+2025-03-27 00:23:04,881 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-27 00:23:04,911 - INFO - BigQuery client initialized successfully.
+2025-03-27 00:23:05,697 - INFO - User selected dataset: Provider Productivity
+2025-03-27 00:23:08,864 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:23:10,510 - INFO - Successfully loaded 251 rows from query
+2025-03-27 00:23:10,531 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:23:10,539 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:23:11,955 - INFO - Successfully loaded 251 rows from query
+2025-03-27 00:23:11,967 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-03-27 00:23:13,940 - INFO - Successfully loaded 1 rows from query
+2025-03-27 00:23:13,943 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-27 00:23:15,602 - INFO - Successfully loaded 2 rows from query
+2025-03-27 00:23:15,609 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-27 00:23:17,051 - INFO - Successfully loaded 10 rows from query
+2025-03-27 00:23:18,076 - INFO - Dashboard execution completed successfully.
+2025-03-27 00:37:27,533 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-27 00:37:27,556 - INFO - BigQuery client initialized successfully.
+2025-03-27 00:37:28,236 - INFO - User selected dataset: Provider Productivity
+2025-03-27 00:37:30,761 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:37:32,193 - INFO - Successfully loaded 251 rows from query
+2025-03-27 00:37:32,214 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:37:32,219 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 00:37:33,663 - INFO - Successfully loaded 251 rows from query
+2025-03-27 00:37:33,700 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-03-27 00:37:35,365 - INFO - Successfully loaded 1 rows from query
+2025-03-27 00:37:35,377 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-27 00:37:37,031 - INFO - Successfully loaded 2 rows from query
+2025-03-27 00:37:37,045 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-27 00:37:38,485 - INFO - Successfully loaded 10 rows from query
+2025-03-27 00:37:39,543 - INFO - Dashboard execution completed successfully.
+2025-03-27 10:08:54,101 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-03-27 10:08:54,175 - INFO - BigQuery client initialized successfully.
+2025-03-27 10:08:56,384 - INFO - User selected dataset: Provider Productivity
+2025-03-27 10:08:58,524 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-03-27 10:08:59,924 - INFO - Successfully loaded 251 rows from query
+2025-03-27 10:08:59,938 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 10:08:59,939 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-03-27 10:09:01,417 - INFO - Successfully loaded 251 rows from query
+2025-03-27 10:09:01,438 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-03-27 10:09:03,096 - INFO - Successfully loaded 1 rows from query
+2025-03-27 10:09:03,099 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-03-27 10:09:04,682 - INFO - Successfully loaded 2 rows from query
+2025-03-27 10:09:04,689 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-03-27 10:09:06,058 - INFO - Successfully loaded 10 rows from query
+2025-03-27 10:09:07,011 - INFO - Dashboard execution completed successfully.
+2025-04-09 23:10:10,571 - INFO - Healthcare Provider Analytics Dashboard started successfully!
+2025-04-09 23:10:10,653 - INFO - BigQuery client initialized successfully.
+2025-04-09 23:10:12,385 - INFO - User selected dataset: Provider Productivity
+2025-04-09 23:10:15,602 - INFO - Executing query: SELECT DISTINCT PROVIDER FROM `healthcare_analytics.provider_productivity`
+2025-04-09 23:10:17,527 - INFO - Successfully loaded 251 rows from query
+2025-04-09 23:10:17,546 - INFO - Final query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-04-09 23:10:17,550 - INFO - Executing query: SELECT * FROM `healthcare_analytics.provider_productivity`
+2025-04-09 23:10:19,265 - INFO - Successfully loaded 251 rows from query
+2025-04-09 23:10:19,304 - INFO - Executing query: 
+                SELECT column_name 
+                FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+                WHERE table_name = 'provider_productivity' AND data_type IN ('INT64', 'FLOAT64', 'NUMERIC')
+                
+2025-04-09 23:10:20,904 - INFO - Successfully loaded 1 rows from query
+2025-04-09 23:10:20,912 - INFO - Executing query: 
+    SELECT column_name 
+    FROM `healthcare_analytics`.INFORMATION_SCHEMA.COLUMNS 
+    WHERE table_name = 'provider_productivity'
+    
+2025-04-09 23:10:22,432 - INFO - Successfully loaded 2 rows from query
+2025-04-09 23:10:22,441 - INFO - Executing query: 
+                        SELECT `PROVIDER`, `encounter_count` 
+                        FROM `healthcare_analytics.provider_productivity`
+                         ORDER BY `encounter_count` DESC LIMIT 10
+2025-04-09 23:10:24,074 - INFO - Successfully loaded 10 rows from query
+2025-04-09 23:10:25,382 - INFO - Dashboard execution completed successfully.
